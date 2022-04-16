@@ -4,11 +4,63 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Title</title>
+    <title>Recipes App</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link rel="stylesheet" href="style.css" />
     <script src="script.js" defer></script>
   </head>
   <body>
-    <h1>Hello Poppers</h1>
+    <div class="mobile-container">
+      <header>
+        <input type="text" />
+        <button id="search">Search</button>
+      </header>
+      <div class="fav-container">
+        <ul>
+          <li>
+            <img
+              src="https://www.themealdb.com/images/ingredients/Lime.png"
+              alt="lemon"
+            /><span>lemon</span>
+          </li>
+          <li>
+            <img
+              src="https://www.themealdb.com/images/media/meals/llcbn01574260722.jpg/preview"
+              alt="carbonari"
+            /><span>Carbonari</span>
+          </li>
+          <li>
+            <img
+              src="https://www.themealdb.com/images/media/meals/wvpsxx1468256321.jpg"
+              alt="casserole"
+            /><span>Casserole</span>
+          </li>
+          <li>
+            <img
+              src="https://www.themealdb.com/images/media/meals/ysxwuq1487323065.jpg"
+              alt="lasagna"
+            /><span>Lasagna</span>
+          </li>
+        </ul>
+      </div>
+      <div class="meals">
+        <span class="radom"> Random Recipe </span>
+        <div class="meal">
+          <div class="meal-header">
+            <img src="" alt="" />
+          </div>
+          <div class="meal-body">
+            <h4>Veggie Vegges</h4>
+            <button><i class="fa-regular fa-heart"></i></button>
+          </div>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
